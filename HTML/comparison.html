@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Latitude - Latitude Analysis Dashboard with Attitude</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="btn-primary">
+                    <span>
+                        <a href="index.html">Lattitude</a>
+                    </span>
+                </button>
+            </div>
+
+            <ul class="nav nav-pills navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="plot1.html">Lattitude vs Cloudiness</a></li>
+                        <li><a href="plot2.html">Lattitude vs Humidity</a></li>
+                        <li><a href="plot3.html">Lattitude vs Windspeed</a></li>
+                        <li><a href="plot4.html">Lattitude vs Tempurature</a></li>
+                    </ul>
+                </li>
+
+                <li role="presentation"><a href="comparison.html">Comparison</a></li>
+                <li role="presentation"><a href="data.html">Data</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3>Comparison Lattitude vs X</h3>
+        <p> Click any spot to get in-depth analysis </p>
+        <div class="col-6 col-md-4">
+            <table class="table">
+                <tr>
+                    <td>
+                        <h4>vs Cloudiness</h4>
+                        <img src="Asset/lat-vs-cloudiness.png">
+                    </td>
+                    <td>
+                        <h4>vs Humidity</h4>
+                        <img src="Asset/lat-vs-humidity.png">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h4>vs Windspeed</h4>
+                        <img src="Asset/lat-vs-windspeed.png">
+                    </td>
+                    <td>
+                        <h4>vs Tempurature</h4>
+                        <img src="Asset/lat-v-temperature.png">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
